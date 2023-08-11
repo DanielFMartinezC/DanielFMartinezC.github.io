@@ -196,11 +196,17 @@ div.back-tech div {
   padding-top: calc(12529 / 31848 * 100%);
 }
 
+#PA-video {
+  width: 80%;
+  /* height: 700px; */
+  height:90%
+}
+
 div.capstone-desk {
   position: relative !important;
   width: calc(1072 / 1327 * 100%);
   height: auto;
-  background-image: url("../images/rorcapstonedesktop.jpg");
+  background-color: red;
   background-size: contain;
   background-repeat: no-repeat;
 }
@@ -209,7 +215,6 @@ div.capstone-mobile {
   position: relative;
   width: calc(255 / 1327 * 100%);
   height: auto;
-  background-image: url("../images/rorcapstone.jpg");
   background-size: contain;
   background-repeat: no-repeat;
 }
@@ -354,7 +359,7 @@ p.project-description {
 .detail > div:nth-child(1) {
   position: absolute;
   top: 0;
-  background-color: rgba(27, 27, 30, 0.95);
+  /* background-color: rgba(27, 27, 30, 0.95); */
   z-index: 3;
   transition: all 0.3;
 }
