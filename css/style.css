@@ -208,6 +208,8 @@ div.capstone-mobile {
   position: relative;
   width: calc(255 / 1327 * 100%);
   height: auto;
+  background-image: url("../images/LOGOPA.png");
+  background-color: rgba(31 41 55);
   background-size: contain;
   background-repeat: no-repeat;
 }
@@ -357,7 +359,7 @@ p.project-description {
 .detail > div:nth-child(1) {
   position: absolute;
   top: 0;
-  /* background-color: rgba(27, 27, 30, 0.95); */
+  background-color: rgba(27, 27, 30, 0.95);
   z-index: 3;
   transition: all 0.3;
 }
